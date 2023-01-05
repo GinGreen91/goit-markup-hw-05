@@ -415,7 +415,6 @@ button {
 	position: absolute;
 	font-size: 16px;
 	padding: 40px 32px 0 32px;
-	text-align: center;
 	background-color: var(--primary-brand);
 	color: #f4f4fd;
 	left: 0;
