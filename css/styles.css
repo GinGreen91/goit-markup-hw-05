@@ -334,10 +334,6 @@ button {
 	color: #404bbf;
 }
 
-.customers-link:hover .customers-logo,
-.customers-link:focus .customers-logo {
-	fill: #404bbf;
-}
 
 .customers-logo {
 	fill: currentColor;
@@ -390,7 +386,7 @@ button {
 	border: 1px;
 	border-radius: 4px;
 	padding: 12px 24px;
-	transition: color var(--transition), background-color var(--transition), box-shedow var(--transition);
+	transition: color var(--transition), background-color var(--transition), box-shadow var(--transition);
 }
 
 .filter-portfolio-btn:hover,
@@ -556,6 +552,10 @@ button {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	padding: 0;
 	transition: background-color var(--transition);
+}
+
+.model-close-btn-icon{
+	transition: fill var(--transition);
 }
 
 .modal-close-btn:hover,
